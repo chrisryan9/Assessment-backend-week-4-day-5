@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./stlyle.css">
+    <title>To do list</title>
+</head>
+<body class="container">
+
+    <h1 class="welcome">To-Do List</h1>
+
+    <nav>
+        <ol>
+          <li class="to-do"><a href="./index.html">Home</a></li>
+          <li class="to-do"><a href="./index.html"><< Back </a></li>
+        </ol>
+      </nav>
+  
+      <section id="main">
+          <section>
+            <form>
+              <input placeholder="What do you need to do?" />
+              <button id="addbutton">Add</button>
+            </form>
+          </section>
+          <ul></ul>
+          <aside id="listofItems"></aside>
+      </section>
+
+
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="todo.js"></script>
+</body>
+</html>
